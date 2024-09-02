@@ -1,0 +1,19 @@
+#video{
+    background-image: url('../img/bgk-header.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 450px;
+    
+}
+
+.video img{
+    margin: 150px 585px 25px;
+    text-align: center;
+}
+
+.video h2{
+    color: white;
+    text-align: center;
+}
