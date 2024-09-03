@@ -1,0 +1,40 @@
+.team{
+    text-align: center;
+    color: white;
+    height: 450px;
+    padding-top: 20px;
+    background-image: url(../img/bgk-middle.png);
+}
+
+.box-div{
+    display: flex;
+    text-align: center;
+    padding-left: 250px;
+    padding-top: 25px;
+}
+
+.box-div div{
+    height: 200px;
+    width:180px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    align-items: center;
+}
+
+
+.team button{
+    background-color: transparent;
+    border: 1px solid #05f4f4;
+    color : #05f4f4;
+    padding:5px 7px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+
+    }
+
+    .team p{
+        padding-top: 15PX;
+    }
