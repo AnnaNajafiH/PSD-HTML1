@@ -1,0 +1,37 @@
+.experties{
+height: 450px;
+display: flex;
+flex-wrap: wrap;
+width: 50% ;
+margin: 0 auto;
+align-items: center;
+text-align: center;
+
+}
+
+.experties div{
+    flex: 1 1 33.33%;
+    height: 250px;
+    border: 1px solid #e7e7e7;
+    border-top: none; 
+    border-bottom: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.experties h3{
+    padding-top: 25px;
+}
+
+.experties img{
+    padding-top: 15px;
+}
+
+.experties p{
+    padding-bottom: 25px;
+    padding-left:5px ;
+    padding-right:5px ;
+}
