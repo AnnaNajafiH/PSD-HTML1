@@ -4,20 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
-    <title>Document</title>
+    <title>PSD to HTML</title>
   </head>
   <body>
+
     <header>
       <nav id="navbar">
+        <div class="navbar__list">
+          <img src="../PSD-HTML1/png/logo.png" alt="logo">
+          <ul class="navbar__list-ul">
+            <li class="navbar__list-ul-li">Link 1</li>
+            <li class="navbar__list-ul-li">Link 2</li>
+            <li class="navbar__list-ul-li">Link 3</li>
+            <li class="navbar__list-ul-li">Link 4</li>
+            <li class="navbar__list-ul-li">Link 5</li>
+            <li class="navbar__list-ul-li">Link 6</li>
+            <li class="navbar__list-ul-li">Link 7</li>
+          </ul>
+        </div>
+
+        <div id="hero" class="hero">
+          <h1>We Are Awseome Creative Agency</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum reprehenderit voluptas dolorum ex laboriosam. Maiores ullam blanditiis, amet quia nisi exercitationem consectetur esse culpa ex,ex laboriosam. Maiores ullam blanditiis, amet quia nisi exercitationem consectetur esse culpa ex?</p>
+          <button>Learn More</button>
+        </div>
       </nav>
-      <div id="hero"></div>
+
     </header>
-<section id="our-story">
+
+<section id="our-story" class="our-story">
+<div class="our-story-left">
+  <img src="../PSD-HTML1/png/logo-big.png" alt="logo big size">
+</div>
+<div class="our-story-right">
+  <h1>Our Story</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis fuga animi dolores voluptatem earum quia.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis fuga animi dolores voluptatem earum quia.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis fuga animi dolores voluptatem earum quia.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis fuga animi dolores voluptatem earum quia.</p>
+  <button>Learn More</button>
+</div>
 </section>
+
 <section id="video"></section>
 <section id="experties"></section>
 <section id="team"></section>
-<section id="contact"></section>
+<!-- -------------------start section contact------------------- -->
+<section id="contact-mainContainer">
+      <div class="container__contact">
+        <h2 class="heading">GIVE US A GOOD NEWS</h2><br>
+          <form>
+            <input type="text" class="input-field font-size" placeholder="  Name" id="name" size="40"><br><br>
+            <input type="email" class="input-field font-size" placeholder="  Email" id="email" size="40"><br><br>
+            <input type="text" class="input-field font-size" placeholder="  Subject" id="subject" size="40"><br><br>
+            <textarea name="textarea" class="textarea font-size" placeholder="  Your Massage" id="textarea" column="42" rows="10"></textarea><br><br>
+            <button name="submit" class="button-font-size" name="button">Submit</button>
+          </form>
+      </div>
+
+      <div class="container__clients">
+        <h2 class="heading">OUR HAPPY CLEINTS</h2>
+        <div class="cleints__logo">
+          
+          <div>
+          <img src="png\Zara_Logo.png" alt="Logo of Zara" class="logo" id="img1">
+          <img src="png\Logo_of_Mango_(new).png" alt="Logo of Mango" class="logo" id="img2">
+          </div>
+          
+          <div>
+          <img src="png\1280px-Barneys_New_York_Logo.png" alt="Logo of Barneys Newyork" class="logo" id="img3">
+          <img src="png\1280px-Gucci_Logo.png" alt="Logo of Gucci" class="logo" id="img4">
+          </div>
+
+          <div>
+          <img src="png/Calvin_klein_logo.png" alt="Logo of Calvin klein" class="logo" id="img5">
+          <img src="png/1280px-Logo_NIKE.png" alt="Logo of Nike" class="logo" id="img6">
+          </div>
+
+          <div>
+          <img src="png\Converse_logo.png" alt="Logo of Converse" class="logo" id="img7">
+          <img src="png\Puma_Logo.png" alt="Logo of Puma" class="logo" id="img8">
+          </div>
+
+          <div>
+          <img src="png\1280px-Levi's_logo.png" alt="Logo of Levi's" class="logo" id="img9">
+          <img src="png\Billabong.png" alt="Logo of Billabong" class="logo" id="img10">
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- -------------------end section contact------------------- -->
+
     <footer></footer>
   </body>
 </html>
